@@ -1,0 +1,11 @@
+id: alien4cloud-k8s-opa-plugin
+name: K8S OPA Plugin
+version: ${project.version}
+description: >
+  This plugin adds OPA related objects to a K8S deployment
+configuration_class: org.alien4cloud.plugin.k8s.opa.PluginConfiguration
+component_descriptors:
+  - bean_name: opa-modifier
+    name: A4C K8S OPA modifier
+    description: >
+      Generates OPA elements for containers with OPA policy
