@@ -10,7 +10,7 @@
 
     <artifactId>alien4cloud-k8s-opa-plugin</artifactId>
     <name>A4C K8S OPA plugin</name>
-    <version>3.5.0-SNAPSHOT</version>
+    <version>3.4.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
